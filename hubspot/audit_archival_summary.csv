@@ -1,0 +1,25 @@
+Category,Metric,Value,Details
+WORKFLOWS,Total Workflows,360,
+WORKFLOWS,Old Workflows (Pre-2025),332,92.2%
+WORKFLOWS,Can Archive (Safe),33,Disabled + Delete Recommended + No Activity
+WORKFLOWS,Currently Enabled,326,
+WORKFLOWS,Has Recent Activity,276,Enrolled in last 7 days or currently enrolled
+WORKFLOWS_BY_YEAR,Created in 2023,190,
+WORKFLOWS_BY_YEAR,Created in 2024,142,
+WORKFLOWS_BY_YEAR,Created in 2025,28,
+PROPERTIES,Total Properties Referenced,489,
+PROPERTIES,Can Archive (Safe),10,No active workflow dependencies
+PROPERTIES,Key Fields (HS + SF),160,Sync with Salesforce
+PROPERTIES,Used Only by Old Workflows,156,
+WORKFLOW_RISK,LOW - Delete Recommended,8,
+WORKFLOW_RISK,MEDIUM - Enabled,8,
+WORKFLOW_RISK,MEDIUM - SF Connected,258,
+WORKFLOW_RISK,HIGH - Active,39,
+WORKFLOW_RISK,HIGH - Canonical Workflow,24,
+WORKFLOW_RISK,HIGH - Heavy SF Integration,23,
+PROPERTY_CRITICALITY,"MEDIUM - Key Field, No Active Workflows",8,
+PROPERTY_CRITICALITY,LOW - Only Disabled Workflows,36,
+PROPERTY_CRITICALITY,"CRITICAL - Key Field, Multiple Active Workflows",52,
+PROPERTY_CRITICALITY,"HIGH - Key Field, Active Usage",100,
+PROPERTY_CRITICALITY,HIGH - Heavy Workflow Usage,19,
+PROPERTY_CRITICALITY,MEDIUM - Active Workflow Usage,274,
